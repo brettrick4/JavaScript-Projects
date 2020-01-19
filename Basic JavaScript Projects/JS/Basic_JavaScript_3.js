@@ -6,7 +6,7 @@ document.getElementById("Math").innerHTML = "118-44="+ Subtraction;
 
 function m_Function() {  
     var simple_Math = 613*8;
-    document.getElementById("Math").innerHTML = ""+simple_Math;
+    document.getElementById("Math").innerHTML = "613*8="+simple_Math;
 }
 function d_Function() {
     var simple_Math = 480 / 6;
