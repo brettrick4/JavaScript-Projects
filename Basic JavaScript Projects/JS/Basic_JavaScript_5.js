@@ -1,7 +1,7 @@
 function MyFunction() {
     var sentence ="There once was a man from New Guinea";
     sentence =+ "who had a horse that wished it could winnie";
-    document.getElementById("concatenate").innerHTML= isNaN('4345');
+    document.getElementById("Concatenate").innerHTML= sentence;
 }
 function myFunction() {
     
