@@ -1,3 +1,14 @@
+ // <!--Global Variable-->
+var X = 10;                            
+function Add_Numbers_1() {
+    document.write(26 + X + "<br>");
+}
+function Add_Numbers_2() {
+    document.write(X + 130);
+}
+Add_Numbers_1();
+Add_Numbers_2();
+//   <!--Local Variable-->                     
 function add_numbers_1() {
 var X = 10;
 console.log(15 + X);
