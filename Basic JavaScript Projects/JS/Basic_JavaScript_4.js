@@ -17,6 +17,6 @@ function my_Dictionary() {
         Age: 40,
         Hair: "Brown",
     };
-    delete Person.Age;
+    delete Person.Hair;
     document.getElementById("Person").innerHTML = Person.Age; 
 }
