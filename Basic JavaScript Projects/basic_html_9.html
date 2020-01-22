@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="./JS/Basic_JavaScript_9.js"></script>
+            <link rel="stylesheet" type="text/css" href="./CSS/Basic_CSS_1.css">
+    </head>
+        <body><!--Slideshow Container-->
+            <div class="slideshow-container"><!--Full-Width Images With Number And Caption Text-->
+              <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                    <img src="./CSS/babybunny.jpg" style="width:100%">
+                    <div class="text">What's up doc?</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                    <img src="./CSS/tinyturtle.jpg" style="width:100%">
+                    <div class="text">Will you rub sunscreen on my back?</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                    <img src="./CSS/babydeer.jpg" style="width:100%">
+                    <div class="text">You're my best friend!</div>
+            </div>
+                <!--Next And Previous Buttons-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <!--Dots And Circles-->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            <!-- <p>For how many seconds would you like to set the timer?</p> -->
+            <!-- <input id="seconds" value="3" /> -->
+            <!-- <button onclick="countdown()">Click Fast!</button> -->
+            <!-- <p id="timer"></p> -->
+        </body>
+</html>

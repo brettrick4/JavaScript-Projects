@@ -14,7 +14,7 @@ function slice_Method() {
 }
 function index_function() {
     var str ="Find the image hidden within the picture of a waterfall. If you can see the image, you don't need glasses!";
-    var pos = str.indexOf("Find");
+    var pos = str.indexOf("within");
     document.getElementById("index").innerHTML = pos;
 }
 function UpperCase() {
@@ -24,23 +24,24 @@ function UpperCase() {
 }
 function search_method() {
     var str = "Visit sunny South Florida! The chances you will be murdered are pretty small, really, if you think about it.";
-    var n = str.search("South");
+    var n = str.search("small");
     document.getElementById("Search").innerHTML = n;
 }
 function string_Method() {
-    var X = 9183;
+    var X = 1/4;
     document.getElementById("Number_to_string").innerHTML = X.toString(); 
 }
 function precision_Method() {
     var X = 1234567890.0987654321;
-    document.getElementById("Precision").innerHTML = X.toPrecision(10);
+    document.getElementById("Precision").innerHTML = X.toPrecision(5);
 }
 function Fixed_Function() {
     var num = 4.5566778899;
     var n = num.toFixed(6);
     document.getElementById("Fixed").innerHTML = n;
 }
-function valueOf_Function() {
+// <!--I don't understand why this is primitive value of a string, it's just the whole string-->
+ function valueOf_Function() {  
     var str = "What exactly is meant by 'primitive value'? It seems to display the entire string.";
     var res = str.valueOf();
     document.getElementById("value").innerHTML = res;
