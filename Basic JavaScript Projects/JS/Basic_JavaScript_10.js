@@ -12,8 +12,8 @@
  
 function count_to_ten() {
     let Digit = "";
-    var X = 1;
-    while (X < 11) {
+    var X = 1;  //Defines the variable X as having a value of 1//
+    while (X < 11) { //Stops counting at ten//
         Digit += "<br>" + X;
         X++;    
     }
@@ -21,7 +21,7 @@ function count_to_ten() {
 }
 function myFunction() {
     var str = "My name is Brett, I am a human, that is what my \"parents\" would have me beleive, anyway. The jury is still out on that, I'm afraid! Now to add more words and see what the count is. Bet its close to 200!";
-    var n = str.length;
+    var n = str.length;  //Counts how many letters are in the string//
 document.getElementById("poop").innerHTML = n;
 }
 
