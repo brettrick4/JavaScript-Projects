@@ -24,13 +24,23 @@
 //    document.getElementById("Output").innerHTML = Color_Output;
 // }  
 
-function myFunction() {
-   var A = document.getElementsByClassName("Click");
-   A[1].innerHTML = "Changed!";
-}
-function myCanvas() {
-   var c = document.getElementById("myCanvas");
+// function myFunction() {
+//    var A = document.getElementsByClassName("Click");
+//    A[1].innerHTML = "Changed!";
+// }
+// function myCanvas() {
+//    var c = document.getElementById("myCanvas");
+//    var ctx = c.getContext("2d");
+//    var img = document.getElementById("kitty");
+//    ctx.drawImage(img,0,0);
+// }
+
+   var c = document.getElementById("canCanvas");
    var ctx = c.getContext("2d");
-   var img = document.getElementById("kitty");
-   ctx.drawImage(img,10,10,);
-}
+
+   var grd = ctx.createLinearGradient(10,0,0,14);
+   grd.addColorStop(0,"blue");
+   grd.addColorStop(1,"red");
+
+   ctx.fillStyle = grd;
+   ctx.fillRect(30, 30, 160, 100);
