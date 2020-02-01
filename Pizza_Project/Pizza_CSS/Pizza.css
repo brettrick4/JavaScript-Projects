@@ -1,0 +1,91 @@
+body {
+   background-color: orange;
+   /* margin: 0 auto; */
+}
+h1 {
+   font-size: 80px;
+   font-family: fantasy;
+   color: #b22222;
+}
+h3 {
+   /* text-align: center; */
+   font-size: 50px;
+   font-family: cursive;
+   color: #2f4f4f;
+   margin:60px 0px 40px 20px;
+}
+div {
+   font-family: fantasy;
+   color: #000066;
+}
+#menuBg {
+   width: 400px;
+   height: 600px;
+   margin: 10px auto; 
+    
+}
+
+#frmMenu {
+   width: 600px;
+   height: 200px;
+   font-size: 25px;
+   position: absolute;
+   top: 30%;
+   right: 30%;
+}
+
+#totalPrice {
+   width: 200px;
+   height: 190px;
+   margin: 30% auto;
+   float: right;
+   top: 65%;
+   right: 50%;
+   /* position: absolute; */
+}
+
+.left {
+   width: 200px;
+   height: 200px;
+   float: left;
+   padding: -40px;
+  /* font-family: fantasy; */  
+}
+.center {
+   width: 200px;
+   height: 200px;
+   float: left;
+   
+}
+.right {
+   width: 200px;
+   height: 200px;
+   float: right;
+   padding: -20%;
+   /* color: #000066;   */
+}
+#showText {
+   width: 200px;
+   height: 190px;
+   margin: 40px auto;
+   float: left;
+   padding: 20% 20%;
+}
+
+#cart {
+   top:0;margin: 0px auto;
+   width: 400px;
+   height: 200px;
+   text-align: center;
+}
+
+#btnOrder {
+   margin: 10px 0px 0px 100px; 
+   width: 100px;
+   height: 40px;
+   display: block;
+   margin: 25px auto;
+   box-shadow: 3px 4px #a9a9a9;
+   border: 1px solid #2f4f4f;
+   border-radius: 5px;
+}
